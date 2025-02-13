@@ -11,6 +11,7 @@ app = FastAPI()
 # Enable CORS to allow requests from your frontend
 origins = [
     "http://localhost:3000",  # Adjust if necessary
+    "https://blackrose-task.vercel.app",
 ]
 
 app.add_middleware(
