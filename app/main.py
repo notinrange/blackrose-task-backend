@@ -12,6 +12,7 @@ app = FastAPI()
 origins = [
     "http://localhost:3000",  # Adjust if necessary,
     "https://task-blackrose.vercel.app",  
+    "wss://task-blackrose.vercel.app",  
 ]
 
 app.add_middleware(
